@@ -18,11 +18,11 @@ if (url.indexOf(vip) != -1) {
 	body = JSON.stringify(obj);
 }
 
-/*********** if (url.indexOf(time) != -1) {
+if (url.indexOf(time) != -1) {
 	obj["isVIPMAutoPay"] = 2;
 	obj["isVIPLuxAutoPay"] = 2;
 	body = JSON.stringify(obj);
-} ***********/
+}
 
 $done({body});
 /*************************/
