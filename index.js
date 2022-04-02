@@ -9,7 +9,7 @@ const time = '/vip/spi/mservice';
 if (url.indexOf(vip) != -1) {
 	obj.data["isNewUser"] = "2";
 	obj.data["vipLuxuryExpire"] = "1600000000000";
-	/*********** obj.data["time"] = "1600000000000";/
+	/*********** obj.data["time"] = "1600000000000"; ***********/
 	obj.data["isYearUser"] = "2";
 	obj.data["vipmExpire"] = "1600000000000";
 	obj.data["vipOverSeasExpire"] = "1600000000000";
@@ -22,7 +22,7 @@ if (url.indexOf(vip) != -1) {
 	obj["isVIPMAutoPay"] = 2;
 	obj["isVIPLuxAutoPay"] = 2;
 	body = JSON.stringify(obj);
-}/
+} ***********/
 
 $done({body});
 /*************************/
