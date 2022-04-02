@@ -8,13 +8,13 @@ const time = '/vip/spi/mservice';
 
 if (url.indexOf(vip) != -1) {
 	obj.data["isNewUser"] = "2";
-	obj.data["vipLuxuryExpire"] = "1835312949000";
-	obj.data["time"] = "1961170340993";
+	obj.data["vipLuxuryExpire"] = "1600000000000";
+	obj.data["time"] = "1600000000000";
 	obj.data["isYearUser"] = "2";
-	obj.data["vipmExpire"] = "1835312949000";
-	obj.data["vipOverSeasExpire"] = "1835312949000";
-	obj.data["vipExpire"] = "1835312949000";
-	obj.data["vip3Expire"] = "1835312949000";
+	obj.data["vipmExpire"] = "1600000000000";
+	obj.data["vipOverSeasExpire"] = "1600000000000";
+	obj.data["vipExpire"] = "1600000000000";
+	obj.data["vip3Expire"] = "1600000000000";
 	body = JSON.stringify(obj);
 }
 
