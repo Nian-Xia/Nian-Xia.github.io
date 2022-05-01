@@ -11,9 +11,10 @@
       "domain:suwav2ray.com",
       "domain:epicgames.com",
       "domain:epicgames.dev",
-      "google.com",
-      "google-analytics.com",
-      "domain:g.co"
+      "domain:google.com",
+      "domain:google-analytics.com",
+      "domain:g.co",
+      "domain:yt3.ggpht.com",
     ]
   },
   {
