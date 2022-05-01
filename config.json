@@ -4,10 +4,9 @@
     "outboundTag": "proxy",
     "domain": [
       "github",
-      "谷歌--",
       "google",
-      "哥哥",
-      "m.sw15.icu"
+      "m.sw15.icu",
+      "baidu"
     ],
     "enabled": true
   }
