@@ -9,7 +9,7 @@
         <meta name="author" content="">
 
         <!-- Page Title -->
-        <title>博客详细信息</title>
+        <title>博客详情</title>
 
         <!-- Favicon and touch Icons -->
         <link href="images/favicon.png" rel="shortcut icon" type="image/png">
@@ -37,29 +37,29 @@
 		<div class="content">
     		<div class="top_part">
 	        	<!-- Start Header -->
+				<!-- Start Header -->
 				<header id="header" class="header_3 header">
 					<div class="container">
-					<div class="navigation">
-						<nav id="flexmenu">
-							<div class="logo">
-								<a href="index.html"><img src="images/logo.png" alt="logo"></a>
-							</div>
-							<div class="nav-inner">
-								<div id="mobile-toggle" class="mobile-btn"></div>
-								<ul class="main-menu">
-									<li class="menu-item"><a href="index.html">首页</a>
+						<div class="navigation">
+							<nav id="flexmenu">
+								<div class="logo">
+									<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+								</div>
+									<div class="nav-inner">
+										<div id="mobile-toggle" class="mobile-btn"></div>
+											<ul class="main-menu">
+												<li class="menu-item"><a href="index.html">首页</a></li>
+									<li class="menu-item active"><a href="blog.html">博客</a>
+								<!--	<ul class="sub-menu">
+										<li class="menu-item active"><a href="blog-details.html">博客详情</a></li>
+										</ul>				-->
 									</li>
-									<li class="menu-item"><a href="blog.html">博客</a>
-										<ul class="sub-menu">
-									<!-- 	<li class="menu-item active"><a href="blog-details-fullwidth.html">博客详细信息		</a></li>    -->
-										</ul>
-									</li>
-									<li class="menu-item active"><a href="blog-details.html">博客详细</a></li>
+									<li class="menu-item"><a href="blog-details.html">博客详情</a></li>
 									<li class="menu-item"><a href="about.html">关于作者</a></li>
 								</ul>
 							</div>
-						</nav>
-					</div>
+							</nav>
+						</div>
 					</div>
 		        </header>
 			</div>
@@ -67,7 +67,7 @@
 			<div class="page-header">
 				<div class="page-header-content">
 					<div class="container">
-						<h2 class="heading">Blog</h2>
+						<h2 class="heading">博客</h2>
 					</div>
 				</div>
 			</div>
@@ -82,7 +82,7 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-lg-12 col-md-12 details_fullwidth">
+							<div class="col-lg-8 col-md-7 details_with_sidebar">
 								<article class="blog_post post_expand">
 									<div class="post_content">
 										<div class="post_header">
@@ -127,14 +127,11 @@
 													<div class="col-lg-12 col-md-12 col-sm-12 img_box" data-aos="overlay-right">
 														<img src="images/blog/post1.jpg" alt="img">
 													</div>
-													<div class="col-lg-4 col-md-4 col-sm-4 img_box" data-aos="overlay-left">
+													<div class="col-lg-6 col-md-6 col-sm-6 img_box" data-aos="overlay-left">
 														<img src="images/blog/post2.jpg" alt="img">
 													</div>
-													<div class="col-lg-4 col-md-4 col-sm-4 img_box" data-aos="overlay-left">
+													<div class="col-lg-6 col-md-6 col-sm-6 img_box" data-aos="overlay-left">
 														<img src="images/blog/post3.jpg" alt="img">
-													</div>
-													<div class="col-lg-4 col-md-4 col-sm-4 img_box" data-aos="overlay-left">
-														<img src="images/blog/post4.jpg" alt="img">
 													</div>
 												</div>
 											</div>
@@ -180,7 +177,7 @@
 												</p>
 											</div>
 										</div>
-										
+
 										<div class="post_footer">
 											<div class="post_share" data-aos="fade-up" data-aos-duration="700">
 												<ul class="share_list">
@@ -227,7 +224,7 @@
 									</div>
 									<div class="more_posts">
 										<div class="row">
-											<div class="col-lg-4 col-md-4 col-sm-6">
+											<div class="col-lg-6 col-md-6 col-sm-6">
 												<article class="blog_post" data-aos="fade-up" data-aos-duration="700">
 													<div class="post_img" data-aos="overlay-left">
 														<a href="#"><img src="images/blog/related1.jpg" alt="blog"></a>
@@ -242,7 +239,7 @@
 												</article>
 											</div>
 		
-											<div class="col-lg-4 col-md-4 col-sm-6">
+											<div class="col-lg-6 col-md-6 col-sm-6">
 												<article class="blog_post" data-aos="fade-up" data-aos-duration="900">
 													<div class="post_img" data-aos="overlay-left">
 														<a href="#"><img src="images/blog/related2.jpg" alt="blog"></a>
@@ -251,21 +248,6 @@
 														<div class="post_header">
 															<h2 class="post_title">
 																<a href="#">Life begins at the end of your comfort zone</a>
-															</h2>
-														</div>
-													</div>
-												</article>
-											</div>
-
-											<div class="col-lg-4 col-md-4 col-sm-6">
-												<article class="blog_post" data-aos="fade-up" data-aos-duration="1100">
-													<div class="post_img" data-aos="overlay-left">
-														<a href="#"><img src="images/blog/related3.jpg" alt="blog"></a>
-													</div>
-													<div class="post_content">
-														<div class="post_header">
-															<h2 class="post_title">
-																<a href="#">A journey is best measured in friends, rather than miles</a>
 															</h2>
 														</div>
 													</div>
@@ -334,22 +316,123 @@
 										
 											<form class="contact_form" action="register.php" method="post">
 												<div class="form-container">
-													<div class="row">
-														<div class="col-md-12 col-lg-12">
-														
-														</div>
-														<div class="col-md-6 col-lg-6">
-															
-														</div>
-														<div class="col-md-6 col-lg-6">
 													
-														</div>
-										
-													</div>
 												</div>
 											</form>
 										</div>
 									</div>
+								</div>
+							</div>
+							
+							<div class="col-lg-4 col-md-5">
+								<div class="sidebar" data-aos="fade-up">
+									<div id="custom_1" class="widget widget_custom">
+										<h4 class="widget_title">About Author</h4>
+										<div class="sidebar_author">
+											<img src="images/author.png" alt="img">									
+											<p class="intro">Lorem ipsum dolor sit amet consec adipiscing elit, sed do eiusmod tempor inci didunt ut labore et dolore magina aliqua. Quis ipsum suspendise</p>
+	
+											<div class="social_profile">
+												<div class="social_media">
+													<a href="#">
+														<i class="ion-social-facebook"></i>
+														<div class="name">Facebook</div>
+														<div class="off_text">45k Likes</div>
+													</a>
+												</div>
+	
+												<div class="social_media">
+													<a href="#">
+														<i class="ion-social-twitter"></i>
+														<div class="name">Twitter</div>
+														<div class="off_text">21k Follower</div>
+													</a>
+												</div>
+	
+												<div class="social_media">
+													<a href="#">
+														<i class="ion-social-instagram"></i>
+														<div class="name">Instagram</div>
+														<div class="off_text">23k Follower</div>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<div id="recent-posts-1" class="widget widget_recent_posts">
+										<h4 class="widget_title">Recent Posts</h4>
+										<div class="sidebar_recent_posts">
+											<ul>
+												<li><a href="#">Let’s escape in the  cityscape</a></li>
+												<li><a href="#">Failure doesn’t define  anything</a></li>
+												<li><a href="#">Bohemian mountain towards Us</a></li>
+											</ul>
+										</div>
+									</div>
+	
+									<div id="custom_2" class="widget widget_custom">
+										<div class="sidebar_add">
+											<img src="images/add.png" alt="add">
+										</div>
+									</div>
+	
+									<div id="categories-1" class="widget widget_categories">
+										<h4 class="widget_title">Categories</h4>
+										<div class="sidebar_categories">
+											<ul class="category_list">
+												<li><a href="#">Travel Hacks</a> (5)</li>
+												<li><a href="#">South Asia</a> (7)</li>
+												<li><a href="#">Travel Photography</a> (4)</li>
+												<li><a href="#">Wildlife Adventure</a> (2)</li>
+												<li><a href="#">Road Trips</a> (4)</li>
+											</ul>
+										</div>
+									</div>
+									
+									<div id="popular-1" class="widget widget_popular_posts">
+										<h4 class="widget_title">Most Read Blogs</h4>
+										<div class="sidebar_popular_posts">
+											<div class="popular_post_item">
+												<div class="popular_post_item_wrapper">
+													<img src="images/popular/1.jpg" alt="img">
+													<div class="popular_post_item_content">
+														<h4 class="popular_post_item_title"><a href="#">Beautiful afternoon boating in Morine Lake</a></h4>
+													</div>
+												</div>
+											</div>
+											<div class="popular_post_item">
+												<div class="popular_post_item_wrapper">
+													<img src="images/popular/2.jpg" alt="img">
+													<div class="popular_post_item_content">
+														<h4 class="popular_post_item_title"><a href="#">Sudden trip to grand Canyons</a></h4>
+													</div>
+												</div>
+											</div>
+											<div class="popular_post_item">
+												<div class="popular_post_item_wrapper">
+													<img src="images/popular/3.jpg" alt="img">
+													<div class="popular_post_item_content">
+														<h4 class="popular_post_item_title"><a href="#">First Snow Experience of my life</a></h4>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+	
+									<div id="tags-1" class="widget widget_tag_cloud">
+										<h4 class="widget_title">Tag Cloud</h4>
+										<div class="tagcloud">
+											<a href="#">Travel</a>
+											<a href="#">PHOTOGRAPHY</a>
+											<a href="#">FASHION</a>
+											<a href="#">Travel</a>
+											<a href="#">HOBBY</a>
+											<a href="#">PHOTOGRAPHY</a>
+											<a href="#">NATURE</a>
+										</div>
+									</div>
+									
 								</div>
 							</div>
 						</div>
@@ -357,7 +440,7 @@
 				</div>
 			</div>
 
-			<footer class="footer" data-aos="fade-up" data-aos-duration="700">
+				<footer class="footer" data-aos="fade-up" data-aos-duration="700">
 
 				<div class="footer-middle">
 					<div class="container">
