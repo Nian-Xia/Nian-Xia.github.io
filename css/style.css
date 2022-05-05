@@ -179,7 +179,7 @@ img{
     color: #59815b;
 }
 
-/*---------- Slider ---------*/
+/*---------- Slider 
 .theme_slider_1 .slider_inner_content{
     display: flex;
 }
@@ -193,7 +193,7 @@ img{
     margin-right: -180px;
     z-index: 2;
     width: 70%;
-}
+}            ---------*/
 .theme_slider_2 .slider_text{
     position: relative;
     padding-top: 0px;
@@ -230,7 +230,7 @@ img{
     position: relative;
     left: 0;
     bottom: 0;
-}
+}top-social-1 .social_links
 .slider_text .blog_post .post_header .post_title{
     font-size: 48px;
     line-height: 52px;
@@ -1220,7 +1220,7 @@ iframe{
     background: #59815b;
 }
 .author_wrapper [class*='col-lg']:first-child{
-    padding-right: 0px;
+    padding-right:0px;
 }
 .author_wrapper [class*='col-lg']:last-child{
     padding-left: 0px;
