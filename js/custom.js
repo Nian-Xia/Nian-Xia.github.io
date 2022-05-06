@@ -35,12 +35,12 @@
             })
 
             $(".swiper-slide")
-           /*.on("mouseenter", function() {
+            .on("mouseenter", function() {
                 $('.bnz-pointer').addClass("bnz-drag")
             })
             .on("mouseleave", function() {
                 $('.bnz-pointer').removeClass("bnz-drag")
-            }) */
+            })
 
             $(".bnz-pointer-none")
             .on("mouseenter", function() {

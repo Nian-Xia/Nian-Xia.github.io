@@ -423,7 +423,7 @@ button.swiper-pagination-bullet {
   width: 5px;
   height: 98%;
 }
-/*.swiper-scrollbar-drag {
+.swiper-scrollbar-drag {
   height: 100%;
   width: 100%;
   position: relative;
@@ -434,7 +434,7 @@ button.swiper-pagination-bullet {
 }
 .swiper-scrollbar-cursor-drag {
   cursor: move;
-}*/
+}
 .swiper-scrollbar-lock {
   display: none;
 }
