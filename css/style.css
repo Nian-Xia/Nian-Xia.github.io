@@ -133,6 +133,10 @@ img{
     font-style: italic;
     color: #9a9a9a;
 }
+.w-100{width:100%!important}
+.h-100{height:100%!important}
+.position-absolute{position:absolute!important}
+
 /*../images/bg1.png 4图片背景 大小1920px  637px */
 .bg_image_1{
     background-image: url(https://r.photo.store.qq.com/psc?/V54OslZB49Z5Aq0UI6QF2tzovF1RS2Oh/ruAMsa53pVQWN7FLK88i5q61lEmmS8za7JMielClr.9quRzxwkpEkUUUCmb8jVYdtSgkq7HlCIQ6Y1wbC*5PeDc0AvJ9t6FBUQwnp*Epg2w!/r&ek=1&kp=1&pt=0&bo=gAd9AoAHfQIDaUw!&t=6&tl=5&su=057731746&vuin=1697488142&tm=1651935600&dis_t=1651936978&dis_k=93c293e193c039a588a33db183e01fb1);
@@ -182,21 +186,6 @@ img{
     color: #59815b;
 }
 
-/*---------- Slider 
-.theme_slider_1 .slider_inner_content{
-    display: flex;
-}
-.theme_slider_1 .slider_text .swiper-slide{
-    height: auto;
-}
-.theme_slider_1 .slider_text{
-    position: relative;
-    padding-top: 0px;
-    padding-left: 90px;
-    margin-right: -180px;
-    z-index: 2;
-    width: 70%;
-}            ---------*/
 .theme_slider_2 .slider_text{
     position: relative;
     padding-top: 0px;
@@ -381,6 +370,7 @@ img{
         font-size: 72px;
         line-height: 82px;
     }
+	
     .slider_images .swiper-slide img{
         max-width: none;
     }
@@ -411,29 +401,6 @@ img{
         line-height: 26px;
         margin: 25px 0px 25px 0px;
     }
-    .theme_slider_1 .slider_inner_content {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .theme_slider_1 .slider_images{
-        max-height: 550px;
-        overflow: hidden;
-    }
-    .theme_slider_1 .slider_images img{
-        width: 100%;
-    }
-    .theme_slider_1 .slider_text{
-        width: 100%;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-right: 0px;
-    }
-    .theme_slider_1 .slider_posts .swiper-pagination{
-        padding: 30px 30px 30px 130px;
-    }
-    .theme_slider_1 .swiper-pagination-bullet:before{
-        font-size: 48px;
-    }
     
     .theme_slider_2 .slider_text .swiper-slide{
         padding-top: 150px;
@@ -455,12 +422,6 @@ img{
     .slider_text .blog_post .post_intro {
         font-size: 14px;
         line-height: 26px;
-    }
-    .theme_slider_1 .slider_posts .swiper-pagination{
-        padding: 30px 30px 30px 100px;
-    }
-    .theme_slider_1 .swiper-pagination-bullet:before{
-        font-size: 30px;
     }
     .theme_slider_2 .slider_text .swiper-slide{
         padding-top: 100px;
@@ -1684,14 +1645,14 @@ ul.comment_area .comment_block .reply i{
 .widget_categories ul li {
     float: left;
     width: 100%;
-    text-align: right;
+    text-align: left;
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #878787;
     padding: 11px 0px;
     line-height: 20px;
-    background-image: linear-gradient(to right, #a5b2cd 10%, rgb(165, 178, 205, 0) 0%);
+    background-image: linear-gradient(to left, #a5b2cd 10%, rgb(165, 178, 205, 0) 0%);
   background-position: top;
   background-size: 6px 1px;
   background-repeat: repeat-x;
@@ -1704,16 +1665,16 @@ ul.comment_area .comment_block .reply i{
     padding-bottom: 0px;
 }
 .widget_categories ul li a {
-    float: left;
+    float: right;
     position: relative;
     font-family: 'Cormorant', serif;
     font-size: 16px;
     font-weight: 500;
     font-style: italic;
-    color: #878787;
+    color: #300B0C;
 }
 .widget_categories ul li a:hover{
-    color: #59815b;
+    color: #35BCA6;
 }
 .widget_popular_posts .popular_post_item{
     margin-bottom: 30px;
