@@ -2,12 +2,16 @@
 (function ($) {
 	'use strict';
     
-        $(window).on('load', function(){
-            $("#preloader").removeClass("loader_show");
-            $("#preloader").addClass("hide");
+	
+  $(window).on('load', function(){
+
             $(".loader").addClass("fadeout");
             $("body").addClass("enable_page");
         })
+	
+	
+      
+
 
         // Slider Carousel 1
         if ($(".theme_slider_1").length) {
