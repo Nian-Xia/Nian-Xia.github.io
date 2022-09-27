@@ -60,6 +60,9 @@ $('#navToggle').on('click',function(){
 $('.m_nav .top .closed').on('click',function(){
 	$('.m_nav').removeClass('open');
 })
+//$('.m_nav .top .closed').on('click',function(){
+//	$('.m_nav').removeClass('open');
+//})
 
 //二级导航  移动端
 $(".m_nav .ul li").click(function() {

@@ -150,6 +150,9 @@ body{background-color: #1b1b1b}
 }
 .m_nav.open{
     transform: translateX(0);
+	width: 35%;
+    height: 100%;
+	left:0;
 }
 .m_nav .top{
 	height: 60px;
@@ -256,7 +259,7 @@ body{background-color: #1b1b1b}
 		padding: 9px 15px;
 		margin-right: -15px;
 		display: inline-block;
-		float: right;
+		float: left;
 	}
 	.header #navToggle span {
 		position: relative;
