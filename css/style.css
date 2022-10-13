@@ -78,6 +78,18 @@ table {
         max-width: 100%;
     }
   }
+
+.guanyuzuozhe{
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 16%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #878787;
+
+}
+
 .clearfix{
   clear: both;
 }
@@ -145,12 +157,12 @@ img{
     background-size: cover;
 }
 /*../images/bg2.png 1170px  353px */
-.bg_image_2{
+/* .bg_image_2{
     background-image: url(https://r.photo.store.qq.com/psc?/V54OslZB49Z5Aq0UI6QF2tzovF1RS2Oh/ruAMsa53pVQWN7FLK88i5q61lEmmS8za7JMielClr.9PH3q2rfBqybryoOu0y6kVLaht6usiF8cVWIkIeDwVyksyqThLc6cDxVb1S.oRG9s!/r&ek=1&kp=1&pt=0&bo=kgRhAZIEYQEBGT4!&t=7&tl=15&su=0133877090&vuin=1697488142&tm=1651935600&dis_t=1651936978&dis_k=c8e3ce7bb2f4e1d5989f01cb6378272b);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 /*../images/bg3.jpg   1544px  520px */
 .bg_image_3{
     background-image: url(https://r.photo.store.qq.com/psc?/V54OslZB49Z5Aq0UI6QF2tzovF1RS2Oh/ruAMsa53pVQWN7FLK88i5rn7jLjoNqRKgVCJ7Wx1B2nRXvXLRSFLpRvmyK*KwLIu8*hpOEDZ0zcdEj3sEYcB84tpbwSb7D8I66wyKwQgRYU!/r&ek=1&kp=1&pt=0&bo=CAYIAggGCAIBGT4!&t=7&tl=15&su=0261717570&vuin=1697488142&tm=1651935600&dis_t=1651937611&dis_k=24dfa76e5dd1c7e167182f5cc64406e3);
@@ -186,7 +198,7 @@ img{
     color: #59815b;
 }
 
-.theme_slider_2 .slider_text{
+/* .theme_slider_2 .slider_text{
     position: relative;
     padding-top: 0px;
     padding-left: 0px;
@@ -195,9 +207,9 @@ img{
 }
 .slider_text .swiper-slide{
     padding-bottom: 60px;
-}
-.slider_text .blog_post{
-	/* 主页4 1089px  728px */
+} */
+/* .slider_text .blog_post{
+	/* 主页4 1089px  728px *
     background: url(https://r.photo.store.qq.com/psc?/V54OslZB49Z5Aq0UI6QF2tzovF1RS2Oh/ruAMsa53pVQWN7FLK88i5j13kLH4Rb9mwwN8yyXf7LdYV4iSKSDL9AWY7QdgcVFzFDYOjohaa7JNktZpT7zWzlvNl2PlriMCHUSd78eg71k!/r&ek=1&kp=1&pt=0&bo=QQTYAkEE2AIDGTw!&t=6&tl=5&su=043008738&vuin=1697488142&tm=1651978800&dis_t=1651981642&dis_k=0483b7bc2efd092073c32402c7d1dfc2);
     background-position: center;
     background-size: cover;
@@ -206,8 +218,8 @@ img{
     height: 100%;
     margin: 0px;
     padding: 150px 130px;
-}
-.theme_slider_2 .slider_text .swiper-slide{
+} */
+/* .theme_slider_2 .slider_text .swiper-slide{
     padding-top: 280px;
     padding-bottom: 280px;
 }
@@ -218,7 +230,7 @@ img{
     background: transparent;
     margin: 0px;
     padding: 0px 0px;
-}
+} */
 .slider_text .post_img .calendar{
     position: relative;
     left: 0;
@@ -228,23 +240,23 @@ img{
     font-size: 48px;
     line-height: 52px;
 }
-.theme_slider_2 .slider_text .blog_post .post_header .post_title a{
+/* .theme_slider_2 .slider_text .blog_post .post_header .post_title a{
     color: #ffffff;
-}
+} */
 .slider_text .blog_post .post_intro{
     font-size: 18px;
     line-height: 30px;
     margin: 40px 0px 30px 0px;
 }
-.theme_slider_2 .slider_text .blog_post .post_intro{
+/* .theme_slider_2 .slider_text .blog_post .post_intro{
     color: #ffffff;
 }
 .theme_slider_2 .blog_post .read_more a {
-    color: #59815b;
+    color: #bb1004;
 }
 .theme_slider_2 .blog_post .read_more a:hover {
     color: #ffffff;
-}
+} */
 @media screen and (min-width: 1400px) {
     .theme_slider_1 .slider_text{
         padding-left: 130px;
@@ -305,7 +317,7 @@ img{
 
 
 /* pagination 2 */
-.theme_slider_2 .slider_text .swiper-pagination{
+/* .theme_slider_2 .slider_text .swiper-pagination{
     position: absolute;
     width: auto;
     left: auto;
@@ -357,15 +369,15 @@ img{
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     transform: scale(1);
-}
+} */
 
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .theme_slider_2 .slider_images{
         min-height: 990px;
     }
-}
-@media screen and (min-width: 1200px) {
+} */
+/* @media screen and (min-width: 1200px) {
     .slider_text .blog_post .post_header .post_title{
         font-size: 72px;
         line-height: 82px;
@@ -427,7 +439,7 @@ img{
         padding-top: 100px;
         padding-bottom: 100px;
     }
-}
+} */
 
 /*-- Swiper Slide Overlay --*/
 [data-swiper] {
@@ -584,6 +596,12 @@ img{
 .post_img {
     position: relative; 
     margin-bottom: 30px;
+    border-radius: 1%;
+}
+.blog_post.post_img {
+    position: relative; 
+    margin-bottom: 30px;
+
 }
 .blog_post .post_img img{
     width: 100%;
@@ -616,8 +634,13 @@ img{
     color: #93a094;
     font-style: italic;
 }
-.blog_post .post_header .author a{
+
+.blog_post .post_content .author a{
+    font-family: 'Cormorant', serif;
+    font-size: 19px;
+    font-weight: 500;
     color: #93a094;
+    font-style: italic;
 }
 .blog_post .post_header .post_title {
     font-size: 40px;
@@ -625,12 +648,16 @@ img{
     margin: 0px 0px 10px 0px;
     padding: 10px 0px;
 }
-.blog_post .post_intro {
+.blog_post .post_intro p{
     font-size: 16px;
     font-weight: 500;
     line-height: 26px;
     color: #878787;
+    text-indent:2em; 
+    padding:0px; 
+    margin:0px;
 }
+
 .blog_post .post_fulltext {
     font-size: 16px;
     font-weight: 500;
@@ -1506,9 +1533,13 @@ ul.comment_area .comment_block .reply i{
 }
 
 .widget .sidebar_author img {
-    margin: 0 auto;
+    height: 65%;
+    width: 65%;
+    /* 图片变圆程度 */
+    border-radius: 20%;
+    /* margin: 0 auto;
     display: block;
-	margin-bottom: 30px;
+	margin-bottom: 30px; */
 }
 .widget .sidebar_author {
 	position: relative;
@@ -1643,13 +1674,13 @@ ul.comment_area .comment_block .reply i{
 }
 
 .widget_categories ul li {
-    float: left;
+    float: left; 
     width: 100%;
     text-align: left;
     font-family: 'Oswald', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
-    color: #878787;
+    color: #5b915e;
     padding: 11px 0px;
     line-height: 20px;
     background-image: linear-gradient(to left, #a5b2cd 10%, rgb(165, 178, 205, 0) 0%);
@@ -1657,23 +1688,29 @@ ul.comment_area .comment_block .reply i{
   background-size: 6px 1px;
   background-repeat: repeat-x;
 }
-.widget_categories ul li:hover{
-    color: #59815b;
+/* 鼠标放上变色 */
+.widget_categories ul li :hover{
+    color: #325034;
+    font-size: 17px;
 }
+/* 鼠标放上变色 */
+
+
 .widget_categories ul li:last-child {
     border-bottom: 0px dotted #a5b2cd;
     padding-bottom: 0px;
 }
+
 .widget_categories ul li a {
-    float: right;
-    position: relative;
-    font-family: 'Cormorant', serif;
-    font-size: 16px;
+    float: left;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
     font-weight: 500;
-    font-style: italic;
-    color: #300B0C;
+    color: #878787;
 }
-.widget_categories ul li a:hover{
+
+.widget_categories-1 ul li a:hover{
     color: #35BCA6;
 }
 .widget_popular_posts .popular_post_item{
