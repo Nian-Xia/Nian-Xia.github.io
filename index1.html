@@ -33,6 +33,22 @@ color:#000;
 </style>
 </head>
 <body>
+
+<script type="text/javascript">
+function changeText2(){
+    var userInput = document.getElementById('userInput').value;
+    var lnk = document.getElementById('lnk');
+    lnk.href ="http://10.3.3.60/search?keywords="+userInput;
+    window.location ="http://10.3.3.60/search?keywords="+userInput;
+}
+
+
+</script>
+
+Here is a link11 : <a href="" id=lnk>nothing here yet</a> <br>
+<input type='text' id='userInput' value=' ' />
+<input type='button' onclick='changeText2()' value='Change Link'/>
+
 <div class="container">
 <div class="content">
 <div class="title"> <a href="/home">网站入口</a></div>
