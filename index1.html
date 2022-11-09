@@ -46,7 +46,7 @@ function changeText2(){
 </script>
 
 Here is a link11 : <a href="" id=lnk>nothing here yet</a> <br>
-<input type='text' id='userInput' value=' ' />
+<input type='text' id='userInput'  οnkeyup="this.value=this.value.replace(/^\s+|\s+$/g,’’)" >
 <input type='button' onclick='changeText2()' value='Change Link'/>
 
 <div class="container">
