@@ -1,58 +1,30 @@
-<html>
+<!DOCTYPE html>
+<html lang="en" >
 <head>
 <meta charset="UTF-8">
-<style>
-body {
-margin: 0;
-padding: 0;
-width: 100%;
-height: 100%;
-color: #000;
-display: table;
-font-weight: 100;
-font-family: 'Lato';
-}
-.container {
-text-align: center;
-display: table-cell;
-vertical-align: middle;
-}
-.content {
-text-align: center;
-display: inline-block;
-}
-.title {
-font-size: 100px;
-margin-bottom: 40px;
-}
-a{
-text-decoration:none;
-color:#000;
-}
+<title>SDKDNS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-</style>
+<link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 
-<script type="text/javascript">
-function changeText2(){
-    var userInput = document.getElementById('userInput').value;
-    var lnk = document.getElementById('lnk');
-    lnk.href ="http://10.3.3.60/search?keywords="+userInput;
-    window.location ="http://10.3.3.60/search?keywords="+userInput;
-}
+<div id="nav-1">
 
+    <ul class="nav">
+        <li class="slide1"></li>
+        <li class="slide2"></li>
+        <li><a class="active" href="https://sdkdnsmax.com/">登录入口1</a></li>
+        <li><a href="https://sdkdnspro.com/">登录入口2</a></li>
+        <li><a href="http://my.fbrwgt.cn:50000/">登录入口3</a></li>
+        <li><a href="http://my.pcmqlk.cn:50000/">登录入口4</a></li>
+    </ul>
 
-</script>
-
-Here is a link11 : <a href="" id=lnk>nothing here yet</a> <br>
-<input type='text' id='userInput'  οnkeyup="this.value=this.value.replace(/^\s+|\s+$/g,’’)" >
-<input type='button' onclick='changeText2()' value='Change Link'/>
-
-<div class="container">
-<div class="content">
-<div class="title"> <a href="/home">网站入口</a></div>
 </div>
-</div>
+
+<script src='js/jquery.min1.js'></script>
+<script src="js/script1.js"></script>
+
 </body>
 </html>
