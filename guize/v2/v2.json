@@ -1,4 +1,35 @@
 [
+    {
+    "inboundTag": [],
+    "outboundTag": "block",
+    "ip": [
+      "120.241.17.13",
+      "112.60.23.247",
+      "120.204.23.187",
+      "36.147.62.218",
+      "112.53.42.170",
+      "36.147.62.199",
+      "117.184.242.236",
+      "36.147.62.134"
+    ],
+    "domain": [
+      "douyin.com",
+      "kuaishou.com",
+      "v.qq.com",
+      "iqiyi.com",
+      "sso.huoshan.com",
+      "douyu.com",
+      "bilibili.com",
+      "kugou.com",
+      "music.163.com",
+      "tv.cnr.cn",
+      "tv.sohu.com",
+      "y.qq.com",
+      "browser.qq.com"
+    ],
+    "enabled": true
+  },
+  
   {
     "outboundTag": "proxy",
     "ip": [
@@ -14,7 +45,16 @@
       "domain:google.com",
       "domain:google-analytics.com",
       "domain:g.co",
-      "domain:yt3.ggpht.com"
+      "domain:yt3.ggpht.com",
+      "cloudreve.org",
+      "localhost",
+      "docs.cloudreve.org",
+      "cloudreve",
+      "cloud1.jmal.top",
+      "google",
+      "openwrt.org",
+      "plickers.com"
+      
     ]
   },
   {
