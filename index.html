@@ -327,6 +327,7 @@
   <div id="menu-options">
 
     <button onclick="refreshWallpaper()">刷新壁纸</button>
+    <button onclick="openCloudDrive()">网盘</button>
 
   </div>
 
@@ -393,7 +394,11 @@
       menuOptions.style.display = (menuOptions.style.display === "block") ? "none" : "block";
 
     }
+ 
 
+    // 打开网盘的函数
+    function openCloudDrive() {
+      window.location.href = "https://frp-fan.top:49843/";
 
 
     // 刷新壁纸的函数
