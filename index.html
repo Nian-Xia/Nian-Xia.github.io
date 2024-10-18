@@ -1,3 +1,27 @@
-<script type="text/javascript">
-    window.location = "https://61.139.65.135:22527/";
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check IPv6 Support</title>
+    <script>
+        function checkIPv6() {
+            // 创建一个IPv6的测试请求
+            var img = new Image();
+            img.onload = function() {
+                // 如果成功加载，说明支持IPv6，跳转到页面1
+                window.location.href = "https://v6.nifw.cn:2528";
+            };
+            img.onerror = function() {
+                // 如果加载失败，说明不支持IPv6，跳转到页面2
+                window.location.href = "index1.html";
+            };
+            // 请求一个IPv6地址资源
+            img.src = "https://[2606:4700:4700::1111]/favicon.ico";  // Cloudflare提供的IPv6地址
+        }
+    </script>
+</head>
+<body onload="checkIPv6()">
+    <h1>Checking your network...</h1>
+</body>
+</html>
