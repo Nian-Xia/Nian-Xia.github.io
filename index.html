@@ -10,7 +10,7 @@
             var img = new Image();
             img.onload = function() {
                 // 如果成功加载，说明支持IPv6，跳转到页面1
-                window.location.href = "https://nas.258008.xyz:44443";
+                window.location.href = "https://nas.258008.xyz:4443";
             };
             img.onerror = function() {
                 // 如果加载失败，说明不支持IPv6，跳转到页面2
@@ -22,6 +22,6 @@
     </script>
 </head>
 <body onload="checkIPv6()">
-    <h1>Checking your network...</h1>
+    <h1>查看你的网络是否支持IPv6...</h1>
 </body>
 </html>
