@@ -10,11 +10,11 @@
             var img = new Image();
             img.onload = function() {
                 // 如果成功加载，说明支持IPv6，跳转到页面1
-                window.location.href = "https://v6.nifw.cn:2528";
+                window.location.href = "https://nas.258008.xyz:44443";
             };
             img.onerror = function() {
                 // 如果加载失败，说明不支持IPv6，跳转到页面2
-                window.location.href = "index1.html";
+                window.location.href = "";
             };
             // 请求一个IPv6地址资源
             img.src = "https://[2606:4700:4700::1111]/favicon.ico";  // Cloudflare提供的IPv6地址
