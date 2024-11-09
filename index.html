@@ -3,25 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Check IPv6 Support</title>
+    <title>检查 IPv6 支持</title>
+    <style>
+        /* 页面整体居中 */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* 让页面占满整个屏幕高度 */
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* 居中显示 h1 标签 */
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            color: #333;
+        }
+
+        /* 添加超链接的样式 */
+        a {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            color: #0066cc;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
     <script>
         function checkIPv6() {
-            // 创建一个IPv6的测试请求
-            var img = new Image();
-            img.onload = function() {
-                // 如果成功加载，说明支持IPv6，跳转到页面1
-                window.location.href = "https://nas.258008.xyz:4443";
-            };
-            img.onerror = function() {
-                // 如果加载失败，说明不支持IPv6，跳转到页面2
-                window.location.href = "";
-            };
-            // 请求一个IPv6地址资源
-            img.src = "https://[2606:4700:4700::1111]/favicon.ico";  // Cloudflare提供的IPv6地址
+            var statusText = document.querySelector('h1');
+            
+            // 设置超时机制，5秒钟内没有响应就认为不支持IPv6
+            var timeout = setTimeout(function() {
+                statusText.textContent = "你的网络不支持IPv6";
+                var link = document.createElement("a");  // 创建一个超链接
+                link.href = "https://ipv6ready.me/index.html.zh_CN";  // 指向IPv6检测网站
+                link.textContent = "前往检查";  // 超链接文本
+                link.target = "_blank";  // 在新标签页中打开
+                statusText.appendChild(link);  // 将超链接添加到 h1 标签下
+            }, 5000);  // 5秒钟超时
+
+            // 尝试通过 fetch 请求你的 IPv6-only 网站来测试 IPv6 支持
+            fetch("https://nas.258008.xyz:4443", { method: 'GET', mode: 'no-cors' })
+                .then(response => {
+                    clearTimeout(timeout);  // 如果请求成功响应，则认为支持 IPv6
+                    statusText.textContent = "你支持IPv6，正在跳转...";
+                    window.location.href = "https://nas.258008.xyz:4443";  // 跳转到目标IPv6网站
+                })
+                .catch(error => {
+                    clearTimeout(timeout);  // 请求失败，则认为不支持 IPv6
+                    statusText.textContent = "你的网络不支持IPv6";
+                    var link = document.createElement("a");  // 创建一个超链接
+                    link.href = "https://ipv6ready.me/index.html.zh_CN";  // 指向IPv6检测网站
+                    link.textContent = "前往检查";  // 超链接文本
+                    link.target = "_blank";  // 在新标签页中打开
+                    statusText.appendChild(link);  // 将超链接添加到 h1 标签下
+                });
         }
+
+        // 页面加载时执行检测
+        window.onload = function() {
+            checkIPv6();
+        };
     </script>
 </head>
-<body onload="checkIPv6()">
+<body>
     <h1>查看你的网络是否支持IPv6...</h1>
 </body>
 </html>
