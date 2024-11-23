@@ -49,7 +49,7 @@
             fetch("https://nas.258008.xyz:4443", { method: 'GET', mode: 'no-cors' })
                 .then(response => {
                     clearTimeout(timeout); 
-                    statusText.textContent = "你支持IPv6，正在跳转...";
+                    statusText.textContent = "跳转中...";
                     window.location.href = "https://nas.258008.xyz:5667";
                 })
                 .catch(error => {
@@ -68,6 +68,6 @@
     </script>
 </head>
 <body>
-    <h1>查看你的网络是否支持IPv6...</h1>
+    <h1>正在检查...</h1>
 </body>
 </html>
