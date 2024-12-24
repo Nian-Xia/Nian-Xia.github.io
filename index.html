@@ -82,7 +82,7 @@
             if (retryCount === 0) {
                 updateStatusText(statusText, "正在检查 IPv6 支持...");
             }
-            const url = `https://nas.258008.xyz:4443?nocache=${Date.now()}`;
+            const url = `https://nas.258008.xyz:5667?nocache=${Date.now()}`;
 
             const timeout = setTimeout(() => handleIPv6Failure(statusText), 5000); 
 
